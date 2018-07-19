@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">musi</string>
+    <string name="t1">Artist</string>
+    <string name="t2">info</string>
+    <string name="t3">playlist</string>
+    <string name="t4">library</string>
+    <string name="t6">Current song played now</string>
+    <string name="info">Info provides all the information about the songs placed in the app</string>
+    <string name="back_btn">BACK</string>
+</resources>
