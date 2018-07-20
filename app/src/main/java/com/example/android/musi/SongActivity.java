@@ -36,11 +36,12 @@ public class SongActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent i = new Intent(SongActivity.this, PlaylistActivity.class);
+                Intent i = new Intent(SongActivity.this, PlayingActivity.class);
                 i.putExtra("song", songList.get(position).getFirstItem());
                 i.putExtra("other", songList.get(position).getSecondItem());
                 startActivity(i);
             }
         });
+
     }
 }
